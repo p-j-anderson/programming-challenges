@@ -1,2 +1,2 @@
 # Programming Challenges
-This repository contains a range of pgramming challenges.
+This repository contains a range of programming challenges.
