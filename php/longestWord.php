@@ -14,7 +14,6 @@ function longestWord($s) {
 
     // Convert the sentence into an array
     $sArray = explode(' ', $s);
-    echo "\n" . print_r($sArray) . "\n\n";
 
     // Find the longest word
     $longestWord = '';
