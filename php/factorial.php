@@ -8,17 +8,17 @@
  */
 
 function factorial($n) {
-	// Confirm we have a positive number greater than zero
-	if (!is_numeric($n) || $n <= 0) {
-		return;
-	}
+    // Confirm we have a positive number greater than zero
+    if (!is_numeric($n) || $n <= 0) {
+        return;
+    }
 
-	// Loop through n and multiply our number
-	$number = 1;
-	for ($n; $n > 1; $n--) {
-		$number = $number * $n;
-	}
+    // Loop through n and multiply our number
+    $number = 1;
+    for ($n; $n > 1; $n--) {
+        $number = $number * $n;
+    }
 
-	// Return the number
-	return $number;
+    // Return the number
+    return $number;
 }
