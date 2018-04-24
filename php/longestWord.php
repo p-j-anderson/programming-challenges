@@ -8,12 +8,12 @@
  * alpha characters.
  */
 
-function longestWord($s) {
+function longestWord($str) {
     // Remove any non-alpha characters excluding spaces
-    $s = preg_replace('/[^A-z ]/', '', $s);
+    $str = preg_replace('/[^A-z ]/', '', $str);
 
     // Convert the sentence into an array
-    $sArray = explode(' ', $s);
+    $sArray = explode(' ', $str);
 
     // Find the longest word
     $longestWord = '';
