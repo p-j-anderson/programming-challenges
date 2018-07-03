@@ -9,7 +9,6 @@ $items = array(
     new Item('Backstage pass', 15, 20),
     new Item('Backstage pass', 10, 49),
     new Item('Backstage pass', 5, 49),
-    // this conjured item does not work properly yet
     new Item('Conjured Mana Cake', 3, 16)
 );
 $app = new GildedRose($items);
