@@ -1,0 +1,14 @@
+{
+  "name": "programming-challenges-javascript",
+  "version": "1.0.0",
+  "description": "Directory for javascript programming challenges with unit tests",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
