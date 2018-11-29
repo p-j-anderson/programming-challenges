@@ -5,5 +5,5 @@ This directory contains programming challenges solved using Javascript. Each cha
 Once dependencies are installed, run the entire test suite using:  
 `npm test`
 
-To run individual test files:
-`node_modules/.bin/jest <<test file name>>
+To run individual test files:  
+`node_modules/.bin/jest <<test file name>>`
