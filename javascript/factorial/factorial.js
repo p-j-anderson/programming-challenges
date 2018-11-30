@@ -17,8 +17,8 @@ const whileLoop = x => {
 const forLoop = x => {
   let factorial = 1
 
-  for (x; x > 1; x--) {
-    factorial *= x
+  for (let i = x; i > 1; i--) {
+    factorial *= i
   }
 
   return factorial
